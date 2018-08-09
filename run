@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+
+use Volosatov\Strategy\Calculator;
+
+require __DIR__ . '/vendor/autoload.php';
+
+$plus = new Calculator("+");
+$subs = new Calculator("-");
+$mult = new Calculator("*");
+$divs = new Calculator("/");
+
+$a = 51;
+$b = 17;
+
+echo $plus->calc($a, $b) . "\n";
+echo $subs->calc($a, $b) . "\n";
+echo $mult->calc($a, $b) . "\n";
+echo $divs->calc($a, $b) . "\n";
+
