@@ -1,0 +1,20 @@
+{
+    "name": "volosatov/strategy",
+    "description": "Simple Strategy Calculator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jevgenij Volosatov",
+            "email": "fformula@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Volosatov\\" : "src"
+        }
+    }
+}
